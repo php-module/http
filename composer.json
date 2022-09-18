@@ -1,0 +1,50 @@
+{
+	"name": "php_modules/http",
+	"version": "1.0.1",
+	"description": "http adapter module for php.",
+  "type": "library",
+	"license": "MIT",
+	"keywords": [
+    "http-adapter",
+    "http"
+	],
+	"autoload": {
+    "psr-4": {
+      "Sammy\\": "Sammy/"
+    },
+
+    "psr-0": {
+      "Sammy\\": "Sammy/"
+    },
+
+		"classmap": [],
+		"files": ["autoload.php"]
+	},
+  "homepage": "https://github.com/php-module/http",
+  "readme": "./README.md",
+  "authors": [
+    {
+      "name": "Agostinho Lopes",
+      "email": "agostinhosaml832@gmail.com",
+      "homepage": "https://agostinhosamil.github.io",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "base.samils@gmail.com",
+    "issues": "https://github.com/php-module/http/issues",
+    "wiki": "https://github.com/php-module/http/wiki"
+  },
+	"require": {
+		"php": ">=5.6.20",
+    "php_modules/application-server-error-handler": "^1.0.1",
+		"php_modules/core": "^1.0.2",
+    "php_modules/format": "^1.0.1",
+    "php_modules/request-input": "^1.0.1",
+    "samils/callable-object": "^1.0.1",
+    "samils/klass-props": "^1.0.1"
+	},
+  "require-dev": {
+    "phpunit/phpunit": "9.5.x-dev"
+  }
+}
