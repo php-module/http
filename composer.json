@@ -1,6 +1,6 @@
 {
 	"name": "php_modules/http",
-	"version": "1.0.1",
+	"version": "1.0.0",
 	"description": "http adapter module for php.",
   "type": "library",
 	"license": "MIT",
@@ -36,15 +36,17 @@
     "wiki": "https://github.com/php-module/http/wiki"
   },
 	"require": {
-		"php": ">=5.6.20",
-    "php_modules/application-server-error-handler": "^1.0.1",
-		"php_modules/core": "^1.0.2",
-    "php_modules/format": "^1.0.1",
-    "php_modules/request-input": "^1.0.1",
-    "samils/callable-object": "^1.0.1",
-    "samils/klass-props": "^1.0.1"
+		"php": ">=5.6.20"
 	},
   "require-dev": {
     "phpunit/phpunit": "9.5.x-dev"
+  },
+  "suggest": {
+    "php_modules/application-server-error-handler": "dev-main",
+    "php_modules/core": "dev-main",
+    "php_modules/format": "dev-main",
+    "php_modules/request-input": "dev-main",
+    "samils/callable-object": "dev-main",
+    "samils/klass-props": "dev-main"
   }
 }
